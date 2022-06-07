@@ -19,3 +19,13 @@ li {
 a {
     text-decoration: none;
 }
+
+.line{
+   display: block;
+   background-color: #000;
+   width: 20px;
+   height: 2px;
+   margin: 4px auto;
+   transition: all 0.5s ease-in-out;
+  
+}
