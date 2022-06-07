@@ -5,19 +5,39 @@
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.logo{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.5rem;
+
 }
 
 ul{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 li {
     list-style: none;
+    margin-left: 3rem;
 }
 
-a {
+.nav-item{
     text-decoration: none;
+    color: #000;
+}
+
+.nav-item:hover{
+    color: blueviolet;
+}
+
+.hamburger{
+    display: none;
 }
 
 .line{
