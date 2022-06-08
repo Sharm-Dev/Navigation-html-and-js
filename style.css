@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-nav{
+.navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,13 +16,13 @@ nav{
 
 }
 
-ul{
+.nav-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-li {
+.nav-list {
     list-style: none;
     margin-left: 3rem;
 }
@@ -55,7 +55,7 @@ li {
             display: block;
             cursor: pointer;
         }
-    ul{
+    .nav-container{
         position: fixed;
         top: 4rem;
         flex-direction: column;
@@ -63,7 +63,7 @@ li {
         text-align: center;
         transform: 0.2s;
     }
-    li{
+    .nav-list{
         margin: 2.5rem 0;
     }
 }
