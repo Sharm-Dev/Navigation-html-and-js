@@ -55,4 +55,15 @@ li {
             display: block;
             cursor: pointer;
         }
+    ul{
+        position: fixed;
+        top: 4rem;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transform: 0.2s;
+    }
+    li{
+        margin: 2.5rem 0;
+    }
 }
