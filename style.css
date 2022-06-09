@@ -49,6 +49,26 @@
    transition: all 0.5s ease-in-out;
   
 }
+.active{
+    transform: translateX(-100vw);
+    animation: navMovement 0.5s linear;
+    transition: all 2s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes navMovement{
+    0% {opacity: 0.9;}
+    40% {
+        opacity: 0.5;
+    }
+    80% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 0;
+    }
+
+}
 
 @media only screen and (max-width: 700px) {
     .hamburger {
@@ -59,11 +79,25 @@
         position: fixed;
         top: 4rem;
         flex-direction: column;
-        width: 100%;
+        width: 80vw;
+        margin: auto;
         text-align: center;
         transform: 0.2s;
+       
+    }
+    /* .nav-container.active{
+        left: 0;
     }
     .nav-list{
         margin: 2.5rem 0;
     }
+    .hamburger.active .line:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .line:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .line:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    } */
 }
