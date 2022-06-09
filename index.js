@@ -10,15 +10,5 @@ if (window.innerWidth < 700) {
 
 function mobileNav() {
     console.log("I work");
-    //hamburger.classList.toggle("active")
     navContainer.classList.toggle("active");
-}
-
-const navList = document.querySelectorAll(".nav-list");
-
-navList, forEach(item => item.addEventListener("click", closeMenu));
-
-function closeMenu() {
-    hamburger.classList.remove("active");
-    navContainer.classList.remove("active");
 }
